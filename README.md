@@ -25,8 +25,19 @@ YOLO-OPENCV/
 ├── Dockerfile                   # Docker container yapılandırması
 └── .gitignore
 
-Önce sanal ortam oluşturup bağımlılıkları yükleyin:
+Önce sanal ortam oluşturup bağımlılıkları yüklenmesi:
 
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
-pip install -r requirements.txt
+pip3 install -r requirements.txt
+
+Docker ile çalıştırma:
+
+docker build -t yolo-opencv .
+docker run -v $(pwd):/app yolo-opencv
+
+Terminalden çalıştırma:
+
+python3 detect_and_log.py --video Sample_Video_HighQuality.mp4
+python3 automatic.py
+python3 query.py
