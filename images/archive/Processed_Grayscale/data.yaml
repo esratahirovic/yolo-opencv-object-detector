@@ -1,0 +1,7 @@
+path: images/archive/Processed_Grayscale
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Bus', 'Car', 'Motorcycle', 'Pickup', 'Truck']
