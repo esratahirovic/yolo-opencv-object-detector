@@ -10,7 +10,7 @@ model.train(
     fliplr=0.5,         # yatay çevirme (yarısına uygula)
     scale=0.5,          # %50 oranında zoom in/out
     translate=0.1,      # %10 kadar kaydırma
-    shear=0.0,          # istersen 0.1 civarında verilebilir
+    shear=0.0,          # 0.1 civarında verilebilir
     hsv_h=0.015,        # hue değişikliği
     hsv_s=0.7,          # saturation
     hsv_v=0.4,          # brightness
