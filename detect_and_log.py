@@ -5,7 +5,7 @@ from ultralytics import YOLO
 
 # === Yollar ===
 VIDEO_PATH = 'images/archive/Sample_Video_HighQuality.mp4'
-MODEL_PATH = 'runs/detect/train2/weights/best.pt'  # doğru model yolunla değiştir
+MODEL_PATH = 'runs/detect/train2/weights/best.pt'
 DB_PATH = 'detections.db'
 
 # === Veritabanı bağlantısı ===
